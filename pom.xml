@@ -59,10 +59,10 @@
     <spring.security.version>3.2.10.RELEASE</spring.security.version>
 
     <!-- Apache CXF -->
-    <cxf.version>3.2.5</cxf.version>
+    <cxf.version>3.2.11</cxf.version>
 
     <!-- Apache POI -->
-    <poi.version>3.12</poi.version>
+    <poi.version>4.1.1</poi.version>
 
     <!-- Simple Logging Facade for Java -->
     <slf4j.version>1.7.5</slf4j.version>
@@ -247,7 +247,7 @@
     <dependency>
       <groupId>net.sf.jasperreports</groupId>
       <artifactId>jasperreports</artifactId>
-      <version>5.6.1</version>
+      <version>6.6.0</version>
       <exclusions>
         <!-- Avoid java.lang.NoSuchMethodError: org.eclipse.jdt.internal.compiler.Compiler -->
         <!-- See http://groups.google.com/group/google-web-toolkit/browse_thread/thread/49e20fb5185b34ce/75436f95e29dce85?hl=en -->
@@ -510,7 +510,7 @@
     <dependency>
       <groupId>com.google.api-client</groupId>
       <artifactId>google-api-client</artifactId>
-      <version>1.20.0</version>
+      <version>1.22.0</version>
     </dependency>
 
     <!-- Apache CXF -->
@@ -563,7 +563,7 @@
     <dependency>
       <groupId>org.apache.ws.security</groupId>
       <artifactId>wss4j</artifactId>
-      <version>1.6.4</version>
+      <version>1.6.17</version>
     </dependency>
 
     <!-- CXF swagger support -->
@@ -839,7 +839,7 @@
     <dependency>
       <groupId>org.docx4j</groupId>
       <artifactId>docx4j</artifactId>
-      <version>3.1.0</version>
+      <version>3.3.5</version>
       <exclusions>
         <exclusion>
           <groupId>org.slf4j</groupId>
@@ -903,7 +903,7 @@
                     </goals>
                   </pluginExecutionFilter>
                   <action>
-                    <ignore></ignore>
+                    <ignore/>
                   </action>
                 </pluginExecution>
               </pluginExecutions>
