@@ -56,7 +56,7 @@
 
     <!-- Using this Spring version -->
     <spring.version>3.2.18.RELEASE</spring.version>
-    <spring.security.version>3.2.10.RELEASE</spring.security.version>
+    <spring.security.version>4.1.0.RELEASE</spring.security.version>
 
     <!-- Apache CXF -->
     <cxf.version>3.2.5</cxf.version>
@@ -309,7 +309,7 @@
     <dependency>
       <groupId>org.hibernate</groupId>
       <artifactId>hibernate-core</artifactId>
-      <version>3.6.10.Final</version>
+      <version>5.1.17.Final</version>
       <exclusions>
         <exclusion>
           <groupId>javax.transaction</groupId>
@@ -325,7 +325,7 @@
     <dependency>
       <groupId>org.hibernate</groupId>
       <artifactId>hibernate-search</artifactId>
-      <version>3.4.2.Final</version>
+      <version>5.10.12.Final</version>
       <exclusions>
         <exclusion>
           <groupId>javax.transaction</groupId>
@@ -903,7 +903,7 @@
                     </goals>
                   </pluginExecutionFilter>
                   <action>
-                    <ignore></ignore>
+                    <ignore/>
                   </action>
                 </pluginExecution>
               </pluginExecutions>
