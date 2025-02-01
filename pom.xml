@@ -325,7 +325,7 @@
     <dependency>
       <groupId>org.hibernate</groupId>
       <artifactId>hibernate-search</artifactId>
-      <version>3.4.2.Final</version>
+      <version>5.10.12.Final</version>
       <exclusions>
         <exclusion>
           <groupId>javax.transaction</groupId>
@@ -903,7 +903,7 @@
                     </goals>
                   </pluginExecutionFilter>
                   <action>
-                    <ignore></ignore>
+                    <ignore/>
                   </action>
                 </pluginExecution>
               </pluginExecutions>
