@@ -56,10 +56,10 @@
 
     <!-- Using this Spring version -->
     <spring.version>3.2.18.RELEASE</spring.version>
-    <spring.security.version>3.2.10.RELEASE</spring.security.version>
+    <spring.security.version>4.0.0.RELEASE</spring.security.version>
 
     <!-- Apache CXF -->
-    <cxf.version>3.2.5</cxf.version>
+    <cxf.version>3.5.11</cxf.version>
 
     <!-- Apache POI -->
     <poi.version>3.12</poi.version>
@@ -74,7 +74,7 @@
     <milton.version>1.8.1.4</milton.version>
 
     <!-- OpenCMIS -->
-    <opencmis.version>0.12.0</opencmis.version>
+    <opencmis.version>0.14.0</opencmis.version>
 
     <!-- Tell the compiler we can use 1.8 -->
     <java.compiler>1.8</java.compiler>
@@ -325,7 +325,7 @@
     <dependency>
       <groupId>org.hibernate</groupId>
       <artifactId>hibernate-search</artifactId>
-      <version>3.4.2.Final</version>
+      <version>5.10.12.Final</version>
       <exclusions>
         <exclusion>
           <groupId>javax.transaction</groupId>
@@ -728,7 +728,7 @@
     <dependency>
       <groupId>net.sf.dozer</groupId>
       <artifactId>dozer</artifactId>
-      <version>5.3.2</version>
+      <version>5.4.0</version>
     </dependency>
 
     <!-- Barcode image processing -->
@@ -839,7 +839,7 @@
     <dependency>
       <groupId>org.docx4j</groupId>
       <artifactId>docx4j</artifactId>
-      <version>3.1.0</version>
+      <version>3.3.0</version>
       <exclusions>
         <exclusion>
           <groupId>org.slf4j</groupId>
@@ -903,7 +903,7 @@
                     </goals>
                   </pluginExecutionFilter>
                   <action>
-                    <ignore></ignore>
+                    <ignore/>
                   </action>
                 </pluginExecution>
               </pluginExecutions>
